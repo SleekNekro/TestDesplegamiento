@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Principal - Pokemon</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Tipos de Pokemon</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Lista de Tipos</h2>
+        <ul>
+            <li th:each="tipo : ${types}">
+                <h3 th:text="${tipo.name}"></h3>
+                <div>
+                    <img th:src="@{${tipo.img}}" alt="IMAGEN" width="5%">
+                </div>
+                <p th:text="${tipo.descrip}">Descripcion del tipo</p>
+                <a th:href="@{'Tipos/tipo_' + ${tipo.name} + '.html'}" class="btn-ver-pokemon">Ver pokemons de este tipo</a>
+            </li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>

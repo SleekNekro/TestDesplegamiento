@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "los 18 tipos de pokemon",
+  "type": "object",
+  "properties": {
+      "types" : {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1,
+        "items": {
+          "required": [
+            "name",
+            "descrip",
+            "img"
+          ],
+          "properties": {
+            "name" : {
+              "type": "string",
+              "minLength": 1
+            },
+            "descrip": {
+              "type": "string",
+              "minLength": 1
+            },
+            "img": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "pokemon" : {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1,
+        "items": {
+          "required": [
+            "type",
+            "name",
+            "pokedex"
+          ],
+          "properties": {
+            "type" : {
+              "type": "string",
+              "minLength": 1
+            },
+            "name" : {
+              "type": "string",
+              "minLength": 1
+            },
+            "pokedex" : {
+              "type": "integer",
+              "minLength": 0
+            }
+          }
+        }
+      }
+  },
+  "required": ["types","pokemon"]
+}

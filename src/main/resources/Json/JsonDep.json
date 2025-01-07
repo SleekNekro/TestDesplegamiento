@@ -1,0 +1,366 @@
+{
+  "types": [
+    {
+      "name": "Acero",
+      "descrip": "Conocidos por su gran defensa y resistencia, estos Pokémon están hechos de metal o lo manipulan.",
+      "img": "../src/main/resources/img/acero.png"
+    },
+    {
+      "name": "Agua",
+      "descrip": "Controlan el agua y suelen habitar en ríos, océanos o ambientes húmedos.",
+      "img": "../src/main/resources/img/agua.png"
+    },
+    {
+      "name": "Bicho",
+      "descrip": "Pequeños pero ágiles, estos Pokémon son conocidos por su adaptación al entorno.",
+      "img": "../src/main/resources/img/bicho.png"
+    },
+    {
+      "name": "Dragón",
+      "descrip": "Representan poder y majestuosidad; muchos son legendarios.",
+      "img": "../src/main/resources/img/dragon.png"
+    },
+    {
+      "name": "Eléctrico",
+      "descrip": "Generan electricidad para atacar o protegerse; son rápidos y dinámicos.",
+      "img": "../src/main/resources/img/electrico.png"
+    },
+    {
+      "name": "Fantasma",
+      "descrip": "Misteriosos y etéreos, suelen habitar lugares oscuros y desolados.",
+      "img": "../src/main/resources/img/fantasma.png"
+    },
+    {
+      "name": "Fuego",
+      "descrip": "Manipulan el fuego y el calor; simbolizan pasión y agresividad.",
+      "img": "../src/main/resources/img/fuego.png"
+    },
+    {
+      "name": "Hada",
+      "descrip": "Encantadores y mágicos, destacan en la lucha contra dragones.",
+      "img": "../src/main/resources/img/hada.png"
+    },
+    {
+      "name": "Hielo",
+      "descrip": "Especialistas en el frío extremo, suelen habitar regiones heladas.",
+      "img": "../src/main/resources/img/hielo.png"
+    },
+    {
+      "name": "Lucha",
+      "descrip": "Expertos en combate físico, representan fuerza y disciplina.",
+      "img": "../src/main/resources/img/lucha.png"
+    },
+    {
+      "name": "Normal",
+      "descrip": "Versátiles y equilibrados, suelen ser los más comunes.",
+      "img": "../src/main/resources/img/normal.png"
+    },
+    {
+      "name": "Planta",
+      "descrip": "Representan la naturaleza y la vida; suelen usar el sol para fortalecerse.",
+      "img": "../src/main/resources/img/planta.png"
+    },
+    {
+      "name": "Psíquico",
+      "descrip": "Poseen poderes mentales y ataques basados en la concentración.",
+      "img": "../src/main/resources/img/psiquico.png"
+    },
+    {
+      "name": "Roca",
+      "descrip": "Sólidos y resistentes, aprovechan la fuerza de los minerales.",
+      "img": "../src/main/resources/img/roca.png"
+    },
+    {
+      "name": "Siniestro",
+      "descrip": "Misteriosos y astutos, sobresalen en estrategias engañosas.",
+      "img": "../src/main/resources/img/siniestro.png"
+    },
+    {
+      "name": "Tierra",
+      "descrip": "Controlan el terreno y suelen habitar en zonas áridas.",
+      "img": "../src/main/resources/img/tierra.png"
+    },
+    {
+      "name": "Veneno",
+      "descrip": "Especialistas en toxinas, utilizan veneno como ataque y defensa.",
+      "img": "../src/main/resources/img/veneno.png"
+    },
+    {
+      "name": "Volador",
+      "descrip": "Ágiles y con gran movilidad, dominan el aire con facilidad.",
+      "img": "../src/main/resources/img/volador.png"
+    }
+  ],
+  "pokemon": [
+    {
+      "type": "Acero",
+      "name": "Registeel",
+      "pokedex": 379
+    },
+    {
+      "type": "Acero",
+      "name": "Scizor",
+      "pokedex": 212
+    },
+    {
+      "type": "Acero",
+      "name": "Mawile",
+      "pokedex": 303
+    },
+    {
+      "type": "Agua",
+      "name": "Shellder",
+      "pokedex": 90
+    },
+    {
+      "type": "Agua",
+      "name": "Squirtle",
+      "pokedex": 7
+    },
+    {
+      "type": "Agua",
+      "name": "Gyarados",
+      "pokedex": 130
+    },
+    {
+      "type": "Bicho",
+      "name": "Spidops",
+      "pokedex": 918
+    },
+    {
+      "type": "Bicho",
+      "name": "Butterfree",
+      "pokedex": 13
+    },
+    {
+      "type": "Bicho",
+      "name": "Beedrill",
+      "pokedex": 15
+    },
+    {
+      "type": "Dragón",
+      "name": "Haxorus",
+      "pokedex": 612
+    },
+    {
+      "type": "Dragón",
+      "name": "Dragonite",
+      "pokedex": 149
+    },
+    {
+      "type": "Dragón",
+      "name": "Garchomp",
+      "pokedex": 445
+    },
+    {
+      "type": "Eléctrico",
+      "name": "Electivire",
+      "pokedex": 466
+    },
+    {
+      "type": "Eléctrico",
+      "name": "Pikachu",
+      "pokedex": 25
+    },
+    {
+      "type": "Eléctrico",
+      "name": "Raichu",
+      "pokedex": 26
+    },
+    {
+      "type": "Fantasma",
+      "name": "Mismagius",
+      "pokedex": 429
+    },
+    {
+      "type": "Fantasma",
+      "name": "Gengar",
+      "pokedex": 94
+    },
+    {
+      "type": "Fantasma",
+      "name": "Drifloon",
+      "pokedex": 425
+    },
+    {
+      "type": "Fuego",
+      "name": "Darumaka",
+      "pokedex": 554
+    },
+    {
+      "type": "Fuego",
+      "name": "Charizard",
+      "pokedex": 6
+    },
+    {
+      "type": "Fuego",
+      "name": "Blaziken",
+      "pokedex": 257
+    },
+    {
+      "type": "Hada",
+      "name": "Xerneas",
+      "pokedex": 716
+    },
+    {
+      "type": "Hada",
+      "name": "Togekiss",
+      "pokedex": 175
+    },
+    {
+      "type": "Hada",
+      "name": "Sylveon",
+      "pokedex": 700
+    },
+    {
+      "type": "Hielo",
+      "name": "Glalie",
+      "pokedex": 362
+    },
+    {
+      "type": "Hielo",
+      "name": "Abomasnow",
+      "pokedex": 460
+    },
+    {
+      "type": "Hielo",
+      "name": "Lapras",
+      "pokedex": 131
+    },
+    {
+      "type": "Lucha",
+      "name": "Hitmontop",
+      "pokedex": 237
+    },
+    {
+      "type": "Lucha",
+      "name": "Machamp",
+      "pokedex": 68
+    },
+    {
+      "type": "Lucha",
+      "name": "Lucario",
+      "pokedex": 448
+    },
+    {
+      "type": "Normal",
+      "name": "Zigzagoon",
+      "pokedex": 263
+    },
+    {
+      "type": "Normal",
+      "name": "Pidgey",
+      "pokedex": 16
+    },
+    {
+      "type": "Normal",
+      "name": "Snorlax",
+      "pokedex": 143
+    },
+    {
+      "type": "Planta",
+      "name": "Sceptile",
+      "pokedex": 254
+    },
+    {
+      "type": "Planta",
+      "name": "Venusaur",
+      "pokedex": 3
+    },
+    {
+      "type": "Planta",
+      "name": "Roserade",
+      "pokedex": 407
+    },
+    {
+      "type": "Psíquico",
+      "name": "Mewtwo",
+      "pokedex": 150
+    },
+    {
+      "type": "Psíquico",
+      "name": "Alakazam",
+      "pokedex": 65
+    },
+    {
+      "type": "Psíquico",
+      "name": "Espeon",
+      "pokedex": 196
+    },
+    {
+      "type": "Roca",
+      "name": "Gigalith",
+      "pokedex": 526
+    },
+    {
+      "type": "Roca",
+      "name": "Tyranitar",
+      "pokedex": 248
+    },
+    {
+      "type": "Roca",
+      "name": "Onix",
+      "pokedex": 95
+    },
+    {
+      "type": "Siniestro",
+      "name": "Poochyena",
+      "pokedex": 261
+    },
+    {
+      "type": "Siniestro",
+      "name": "Murkrow",
+      "pokedex": 198
+    },
+    {
+      "type": "Siniestro",
+      "name": "Honchkrow",
+      "pokedex": 430
+    },
+    {
+      "type": "Tierra",
+      "name": "Marowak",
+      "pokedex": 105
+    },
+    {
+      "type": "Tierra",
+      "name": "Groudon",
+      "pokedex": 383
+    },
+    {
+      "type": "Tierra",
+      "name": "Donphan",
+      "pokedex": 232
+    },
+    {
+      "type": "Veneno",
+      "name": "Weezing",
+      "pokedex": 110
+    },
+    {
+      "type": "Veneno",
+      "name": "Muk",
+      "pokedex": 89
+    },
+    {
+      "type": "Veneno",
+      "name": "Gengar",
+      "pokedex": 94
+    },
+    {
+      "type": "Volador",
+      "name": "Rookidee",
+      "pokedex": 821
+    },
+    {
+      "type": "Volador",
+      "name": "Rowlet",
+      "pokedex": 722
+    },
+    {
+      "type": "Volador",
+      "name": "Skarmory",
+      "pokedex": 227
+    }
+  ]
+}
